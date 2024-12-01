@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-   "server":"nodemon server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "postinstall": "npm rebuild bcrypt --build-from-source"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "author": "",
   "license": "ISC",
