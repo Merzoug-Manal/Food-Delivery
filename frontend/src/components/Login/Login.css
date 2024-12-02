@@ -62,3 +62,18 @@
     color:#FF5F00;
     font-weight: 500;
  }
+ .reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .reset-password{
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+ }

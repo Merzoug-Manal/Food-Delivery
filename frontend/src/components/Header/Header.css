@@ -51,7 +51,7 @@
         font-size: 5vw; 
     }
 }
-@media (max-width: 750px) {
+@media (max-width: 900px) {
     
     .header-contents  {
         max-width: 55%;

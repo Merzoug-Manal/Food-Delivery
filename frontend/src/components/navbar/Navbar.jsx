@@ -24,9 +24,9 @@ function Navbar({setShowLogin}) {
       <a href="#footer" onClick={() =>setMenu("contact-us")} className={menu==="contact-us "?"active":""} >contact-us</a>
      </ul>
      <div class="navbar-right">
-      <img src={assets.search_icon} alt="" />
+      
       <div class="navbar-search-icon">
-      <Link to='/cart'> <img src={assets.basket_icon} /></Link>
+      <Link to='/cart'> <img className='cart_icon' src={assets.basket_icon} /></Link>
         <div class={getTotalCartAmount()===0?"":"dot"}></div>
       </div>
 

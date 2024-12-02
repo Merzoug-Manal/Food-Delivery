@@ -55,8 +55,8 @@
     min-height: 10px;
     background-color: #FF5F00;
     border-radius: 5px;
-    top:-8px;
-    right: -8px   ;
+    top:-6px;
+    right: 6px   ;
 }
 
 @media (max-width: 1050px) {
@@ -136,4 +136,8 @@
         display: none;
     }
     
+}
+.cart_icon{
+    width:40px;
+    height: 40px;
 }
