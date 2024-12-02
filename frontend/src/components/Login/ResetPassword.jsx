@@ -19,7 +19,7 @@ function ResetPassword() {
     }
 
     try {
-      const response = await axios.post(`http://localhost:4000/api/user/reset-password/${token}`, {
+      const response = await axios.post(`https://food-backend-07pg.onrender.com/api/user/reset-password/${token}`, {
         newPassword,
       });
 
